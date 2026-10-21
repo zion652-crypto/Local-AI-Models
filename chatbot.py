@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 """
-Guarded Chatbot
+Chatbot
 ===============
-A small chatbot with three simple guardrail layers, built for learning how
-prompt injection works by testing your own system.
+A small chatbot with three simple guardrail layers, built for learning.
 
     1. Input filter   regex blocklist checked before the model sees the message
     2. System prompt  rules given to the model
@@ -14,12 +13,10 @@ CPU. Optional extras: uploaded text files and web search as extra context.
 
 Quick start:
     pip install -r requirements.txt
-    python guarded_chatbot.py                      # web UI at http://127.0.0.1:7860
-    python guarded_chatbot.py --cli                # terminal chat instead
-    python guarded_chatbot.py --help               # all options
+    python chatbot.py                      # web UI at http://127.0.0.1:7860
+    python chatbot.py --cli                # terminal chat instead
+    python chatbot.py --help               # all options
 
-The guardrails here are deliberately simple and easy to bypass. They are a
-learning target, not production security.
 """
 
 import argparse
