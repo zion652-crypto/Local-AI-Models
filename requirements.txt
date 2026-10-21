@@ -1,0 +1,9 @@
+torch>=2.1
+transformers>=4.45
+accelerate>=0.30
+gradio>=4.44
+ddgs
+
+# Optional, NVIDIA GPUs only (Linux/Windows). Enables --load-in-4bit so bigger
+# models fit in less GPU memory:
+# bitsandbytes
