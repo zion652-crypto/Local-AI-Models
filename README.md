@@ -1,7 +1,6 @@
-# Guarded Chatbot
+#  Chatbot
 
-A small chatbot with three simple guardrail layers, built for learning how
-prompt injection works by attacking a system you own.
+A small chatbot with three simple guardrail layers.
 
 It runs any Hugging Face chat model locally, on an NVIDIA GPU, Apple Silicon
 or a plain CPU, and has a web UI plus a terminal mode. Optional extras: upload
